@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_1602294_playbo_0_action</from_table>
+        <m2m_from_field>x_1602294_playbo_0_action</m2m_from_field>
+        <m2m_from_label>Codes</m2m_from_label>
+        <m2m_table>x_1602294_playbo_0_m2m_x_1602294_pl_x_1602294_pl</m2m_table>
+        <m2m_to_field>x_1602294_playbo_0_codes</m2m_to_field>
+        <m2m_to_label>Actions</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 19:26:24</sys_created_on>
+        <sys_id>e49bff3483522210d55659c6feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1602294_playbo_0_m2m_x_1602294_pl_x_1602294_pl</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>sys_m2m_e49bff3483522210d55659c6feaad362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 19:26:24</sys_updated_on>
+        <to_table>x_1602294_playbo_0_codes</to_table>
+    </sys_m2m>
+</record_update>

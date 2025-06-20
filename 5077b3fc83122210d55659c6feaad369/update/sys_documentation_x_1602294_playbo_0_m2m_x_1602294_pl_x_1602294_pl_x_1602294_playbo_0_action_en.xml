@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_1602294_playbo_0_action" label="Actions" language="en" table="x_1602294_playbo_0_m2m_x_1602294_pl_x_1602294_pl">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_1602294_playbo_0_action</element>
+            <help/>
+            <hint/>
+            <label>Actions</label>
+            <language>en</language>
+            <name>x_1602294_playbo_0_m2m_x_1602294_pl_x_1602294_pl</name>
+            <plural>Actions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 19:26:25</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Actions</sys_name>
+            <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+            <sys_update_name>sys_documentation_x_1602294_playbo_0_m2m_x_1602294_pl_x_1602294_pl_x_1602294_playbo_0_action_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 19:26:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

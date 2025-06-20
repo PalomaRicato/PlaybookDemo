@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="600a33b083522210d55659c6feaad3a7" label="Codes" max_length="40" name="x_1602294_playbo_0_codes" type="collection">
+        <element label="Name" max_length="2000" name="name" type="string"/>
+    </element>
+</database>
