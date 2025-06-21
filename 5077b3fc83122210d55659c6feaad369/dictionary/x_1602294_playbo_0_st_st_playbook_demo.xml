@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="adc5448183922210d55659c6feaad3ba" label="Playbook Remote table" max_length="40" name="x_1602294_playbo_0_st_st_playbook_demo" type="collection">
+        <element label="codes" max_length="4000" name="codes" reference="x_1602294_playbo_0_codes" type="glide_list"/>
+        <element label="Created" max_length="40" name="created" type="glide_date"/>
+        <element label="Number" max_length="50" name="number" type="string"/>
+        <element label="Action" max_length="4000" name="action" reference="x_1602294_playbo_0_action" type="glide_list"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>
