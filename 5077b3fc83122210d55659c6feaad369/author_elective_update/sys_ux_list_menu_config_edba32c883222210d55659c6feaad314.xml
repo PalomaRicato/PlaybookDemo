@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>Playbook Demo_menu_config</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 17:02:42</sys_created_on>
+        <sys_id>edba32c883222210d55659c6feaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbook Demo_menu_config</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_edba32c883222210d55659c6feaad314</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 17:02:42</sys_updated_on>
+    </sys_ux_list_menu_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</application>
+        <file_path/>
+        <instance_id>55e07ce7ff811290c80bf8e4fc4fd963</instance_id>
+        <instance_name>dev289405</instance_name>
+        <name>sys_ux_list_menu_config_edba32c883222210d55659c6feaad314</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config"><sys_ux_list_menu_config action="INSERT_OR_UPDATE"><active>true</active><description/><name>Playbook Demo_menu_config</name><sys_class_name>sys_ux_list_menu_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-30 17:02:42</sys_created_on><sys_id>edba32c883222210d55659c6feaad314</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Playbook Demo_menu_config</sys_name><sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package><sys_policy/><sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope><sys_update_name>sys_ux_list_menu_config_edba32c883222210d55659c6feaad314</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-30 17:02:42</sys_updated_on></sys_ux_list_menu_config></record_update>]]></payload>
+        <payload_hash>-1032117880</payload_hash>
+        <record_name>Playbook Demo_menu_config</record_name>
+        <reverted_from/>
+        <source>d4e3848d83522210d55659c6feaad33e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 17:02:42</sys_created_on>
+        <sys_id>25ba32c883222210d55659c6feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197c1ca7d9b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 17:02:42</sys_updated_on>
+        <type>UX List Menu Configuration</type>
+        <update_guid>e5ba32c88122221080f45e20e0164516</update_guid>
+        <update_guid_history>e5ba32c88122221080f45e20e0164516:-1032117880</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:55:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_menu_config">sys_ux_list_menu_config</sys_db_object>
+        <sys_id>d375656939ae4172b5c23ee4d48f0fe4</sys_id>
+        <sys_metadata>edba32c883222210d55659c6feaad314</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbook Demo_menu_config</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_scope_delete display_value="">0da1a3141ba944f881da30530b4f0a90</sys_scope_delete>
+        <sys_update_name>sys_ux_list_menu_config_edba32c883222210d55659c6feaad314</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_menu_config_edba32c883222210d55659c6feaad314">25ba32c883222210d55659c6feaad317</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:55:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

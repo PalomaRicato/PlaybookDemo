@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <collapse_attachment>false</collapse_attachment>
+        <enable_exact_match>true</enable_exact_match>
+        <evam_definition display_value="AI Search For Next Search">f78b729b53d801109fa9ddeeff7b1201</evam_definition>
+        <filter_genius_results_by_search_source>false</filter_genius_results_by_search_source>
+        <genius_results_limit>1</genius_results_limit>
+        <hit_highlighting>false</hit_highlighting>
+        <log_signals_server_side>false</log_signals_server_side>
+        <name>Playbook Demo AI Search Configuration</name>
+        <search_engine>ai_search</search_engine>
+        <search_profile display_value="playbook-demo Search Profile">2cbabe8842222210c9aade1903bf0afc</search_profile>
+        <search_results_limit>10</search_results_limit>
+        <show_tab_counts>true</show_tab_counts>
+        <spell_check>true</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 17:02:39</sys_created_on>
+        <sys_id>1cbabe88ec222210d9faaa56398852f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbook Demo AI Search Configuration</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>sys_search_context_config_1cbabe88ec222210d9faaa56398852f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 17:02:39</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=1cbabe88ec222210d9faaa56398852f5"/>
+</record_update>

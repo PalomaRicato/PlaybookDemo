@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>A default view for Playbook Demo generated</description>
+        <name>view</name>
+        <page display_value="">ecbabe8892222210009dcc742d0b1afc</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 17:02:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>98babe8870222210179d34fac21cb7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>sys_ux_page_property_98babe8870222210179d34fac21cb7ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 17:02:39</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1602294_playbo_0.ecbabe8892222210009dcc742d0b1afc.root.view</unique_name>
+        <value>workspace-playbook-demo-0</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</application>
+        <file_path/>
+        <instance_id>55e07ce7ff811290c80bf8e4fc4fd963</instance_id>
+        <instance_name>dev289405</instance_name>
+        <name>sys_ux_page_property_98babe8870222210179d34fac21cb7ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>A default view for Playbook Demo generated</description><name>view</name><page display_value="">ecbabe8892222210009dcc742d0b1afc</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-30 17:02:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>98babe8870222210179d34fac21cb7ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>view</sys_name><sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package><sys_policy/><sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope><sys_update_name>sys_ux_page_property_98babe8870222210179d34fac21cb7ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-30 17:02:39</sys_updated_on><type>string</type><unique_name>x_1602294_playbo_0.ecbabe8892222210009dcc742d0b1afc.root.view</unique_name><value>workspace-playbook-demo-0</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>676929277</payload_hash>
+        <record_name>view</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:55:44</sys_created_on>
+        <sys_id>cb00370883662210d55659c6feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197c29fd84b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:55:44</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>8b003708f4662210f45eb6982f160ecf</update_guid>
+        <update_guid_history>8b003708f4662210f45eb6982f160ecf:676929277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:55:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>03073fb229e44800844591e389f90000</sys_id>
+        <sys_metadata>98babe8870222210179d34fac21cb7ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_scope_delete display_value="">0da1a3141ba944f881da30530b4f0a90</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_98babe8870222210179d34fac21cb7ee</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_98babe8870222210179d34fac21cb7ee">cb00370883662210d55659c6feaad3cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:55:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

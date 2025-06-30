@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_1602294_playbo_0_playbook_demo_search_profile_default_spell_check_dictionary">b2baf2c883222210d55659c6feaad3a4</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="playbook-demo Search Profile">2cbabe8842222210c9aade1903bf0afc</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 17:02:47</sys_created_on>
+        <sys_id>7ebaf2c883222210d55659c6feaad3a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1602294_playbo_0_playbook_demo_search_profile_default_spell_check_dictionary.playbook-demo Search Profile</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_7ebaf2c883222210d55659c6feaad3a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 17:02:47</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="831cfb7483522210d55659c6feaad392" label="x_1602294_playbo_0_m2m_Request tables_Actions" max_length="40" name="x_1602294_playbo_0_m2m_request_action" type="collection">
+    <element db_object_id="831cfb7483522210d55659c6feaad392" label="x_1602294_playbo_0_m2m_Request tables_Actions" max_length="40" name="x_1602294_playbo_0_m2m_request_action" text_index="true" type="collection">
         <element attributes="encode_utf8=false" label="Request tables" max_length="32" name="x_1602294_playbo_0_request_table" reference="x_1602294_playbo_0_request_table" type="reference"/>
         <element attributes="encode_utf8=false" label="Actions" max_length="32" name="x_1602294_playbo_0_action" reference="x_1602294_playbo_0_action" type="reference"/>
         <index name="index">

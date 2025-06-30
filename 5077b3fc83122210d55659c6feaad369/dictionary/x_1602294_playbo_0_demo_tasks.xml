@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9fd8af8883262210d55659c6feaad333" extends="task" label="Demo Tasks" max_length="40" name="x_1602294_playbo_0_demo_tasks" text_index="true" type="collection"/>
+</database>

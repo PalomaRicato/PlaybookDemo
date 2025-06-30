@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e4c77bfc83122210d55659c6feaad346" extends="task" label="Request table" max_length="40" name="x_1602294_playbo_0_request_table" type="collection"/>
+    <element db_object_id="e4c77bfc83122210d55659c6feaad346" extends="task" label="Request table" max_length="40" name="x_1602294_playbo_0_request_table" text_index="true" type="collection"/>
 </database>

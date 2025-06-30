@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience">
+    <sys_playbook_experience action="INSERT_OR_UPDATE">
+        <name>Playbook Demo</name>
+        <sys_class_name>sys_playbook_experience</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:45:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d9d67c083662210d55659c6feaad3eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbook Demo</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>sys_playbook_experience_6d9d67c083662210d55659c6feaad3eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:45:06</sys_updated_on>
+    </sys_playbook_experience>
+</record_update>

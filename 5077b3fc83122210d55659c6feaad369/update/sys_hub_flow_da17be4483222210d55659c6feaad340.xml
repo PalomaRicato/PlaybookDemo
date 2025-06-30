@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=13375000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>playbook_tasks</internal_name>
+        <label_cache>[{"name":"subflow.request","label":"Input➛request","reference":"x_1602294_playbo_0_demo_tasks","reference_display":"Demo Tasks","type":"reference","base_type":"reference","column_name":"","usedInstances":{"18c6b38a-2e8b-427b-9368-483d96ae6fc8":["parent"],"fcdbd9a6-b686-4f6b-bf7b-e2db4be4ae00":["parent"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"dc928db0-05c7-452c-bfac-351ee10e0660","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"fcdbd9a6-b686-4f6b-bf7b-e2db4be4ae00.record","label":"2 - Create Record➛Demo Tasks Record","reference":"x_1602294_playbo_0_demo_tasks","reference_display":"Demo Tasks","type":"reference","base_type":"reference","usedInstances":{"e7ced94f-3e91-475f-b21e-73a4b7ca5520":["task2-1"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18c6b38a-2e8b-427b-9368-483d96ae6fc8.record","label":"1 - Create Record➛Demo Tasks Record","reference":"x_1602294_playbo_0_demo_tasks","reference_display":"Demo Tasks","type":"reference","base_type":"reference","usedInstances":{"e7ced94f-3e91-475f-b21e-73a4b7ca5520":["task1-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>82d736c483222210d55659c6feaad356</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Playbook Tasks</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:46:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da17be4483222210d55659c6feaad340</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Playbook Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>sys_hub_flow_da17be4483222210d55659c6feaad340</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:51</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=da17be4483222210d55659c6feaad340"/>
+    <sys_variable_value action="delete_multiple" query="document_key=da17be4483222210d55659c6feaad340"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_da17be4483222210d55659c6feaad340^id=da17be4483222210d55659c6feaad340"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=da17be4483222210d55659c6feaad340"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=da17be4483222210d55659c6feaad340^sys_idNOT IN5217728483222210d55659c6feaad308"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>da17be4483222210d55659c6feaad340</id>
+        <name>Playbook Tasks</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:46:55</sys_created_on>
+        <sys_id>5217728483222210d55659c6feaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 16:46:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5217728483222210d55659c6feaad308"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=da17be4483222210d55659c6feaad340^sys_idNOT INb8d7be4483222210d55659c6feaad352"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=dc928db0-05c7-452c-bfac-351ee10e0660</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1602294_playbo_0_demo_tasks</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>request</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Playbook Tasks">da17be4483222210d55659c6feaad340</model>
+        <model_id>da17be4483222210d55659c6feaad340</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_da17be4483222210d55659c6feaad340</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1602294_playbo_0_demo_tasks">x_1602294_playbo_0_demo_tasks</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:50:05</sys_created_on>
+        <sys_id>b8d7be4483222210d55659c6feaad352</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b8d7be4483222210d55659c6feaad352"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=da17be4483222210d55659c6feaad340^sys_idNOT IN761ae34c83262210d55659c6feaad380,f21ae34c83262210d55659c6feaad37a"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=a8791bfa-a52c-4a41-bc19-2e6ef1c41adf</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1602294_playbo_0_demo_tasks</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>task2</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Playbook Tasks">da17be4483222210d55659c6feaad340</model>
+        <model_id>da17be4483222210d55659c6feaad340</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_da17be4483222210d55659c6feaad340</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1602294_playbo_0_demo_tasks">x_1602294_playbo_0_demo_tasks</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:29:47</sys_created_on>
+        <sys_id>761ae34c83262210d55659c6feaad380</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=761ae34c83262210d55659c6feaad380"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=f240cb84-7d7f-41b2-bf80-cd6503bedd55</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1602294_playbo_0_demo_tasks</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>task1</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Playbook Tasks">da17be4483222210d55659c6feaad340</model>
+        <model_id>da17be4483222210d55659c6feaad340</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_da17be4483222210d55659c6feaad340</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1602294_playbo_0_demo_tasks">x_1602294_playbo_0_demo_tasks</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:29:47</sys_created_on>
+        <sys_id>f21ae34c83262210d55659c6feaad37a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f21ae34c83262210d55659c6feaad37a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=da17be4483222210d55659c6feaad340"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=da17be4483222210d55659c6feaad340"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=da17be4483222210d55659c6feaad340^sys_idNOT IN01d7f2c483222210d55659c6feaad371,c9d7f2c483222210d55659c6feaad36f"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Playbook Tasks">da17be4483222210d55659c6feaad340</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:50:06</sys_created_on>
+        <sys_id>01d7f2c483222210d55659c6feaad371</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:33:23</sys_updated_on>
+        <ui_id>fcdbd9a6-b686-4f6b-bf7b-e2db4be4ae00</ui_id>
+        <values>H4sIAAAAAAAA/9VUTW8aMRD9K8jn1Wo/KArcqiBObSI1EZc0tbzrWbDqtTe2l0AR/73jtSEoDWqr9hJunnkz894wbx/2RHAyI5Mcsg/TfFKXeVkWWVZcjfNqUlZ5wUsGMCYJUawFRDpWSaDDIyEbJnsf3NJ8khXFdEw7yXaVphnl0GrqmP1uEceF9YllhM8xN7qPuXotJDegyOzhMSEdM9jagSGz/avUnxKVrAKJ0HvP9AJxt+vejH06rx3dhIQ23PPJEgJbB4oDEmmYtJCQlinOnDY7MnOmx4ABxm+V3J0Qa6EcNiQeu7XiB469yjyuAVRWQ8idnjSuKoSbOXPsDjvXrjcRWq+1qMGGnXBoWC/d9XksAG47J7QKJYPMWK1l36qbsBJyanD8ZzDSWyQBndfpmUcZzd1aP385slwINawkJqWumTy9mHNGVL3zfPYEJLTYiLas64Ra0c7ojRiKkUubriQ+0kbqZxxqxUqlrPbEU1wrSxcYnw/hJTPCq/iMbbD4kBC7s9eSWfuiBZdIn3rPJCiLGmhYgy+pjejcRxywgUj3kBwdwCGbXjysvHo5pOHo7dn1483imK99lpV8v7d95eWkBp4Q5g6Hb3atjfPyhvEoLkC9OYpfzfGP3f7STr9XfbTTQoDk9o01HL0ELcpwQMNaXvkpJkfLmIyeyv+Xp/D7M/zekbOCuHdvrLNv6AWLPf4EGfa8jGYGAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Playbook Tasks">da17be4483222210d55659c6feaad340</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:50:06</sys_created_on>
+        <sys_id>c9d7f2c483222210d55659c6feaad36f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:33:23</sys_updated_on>
+        <ui_id>18c6b38a-2e8b-427b-9368-483d96ae6fc8</ui_id>
+        <values>H4sIAAAAAAAA/9VUwW7bMAz9lUBnw7DjLGhyGxrktLXAWuTSdYJs0YkwWXIlOU0W5N9HWXIadA22Ybs0N5GP5HsMnx8ORHAyJ9Mcsg+zfFoVeVGMs2x8NcnLaVHmY14wgAlJiGININKxUgLtHwnZMtn54I7m02w8nk1oK9m+1DSjHBpNHbPfLeK4sD6xivAF5kb3MVdthOQGFJk/PCakZQZbOzBkfniV+lOikpUgEXrvmV4g7vbtm7FP57Wjm5DQhns+WUJg50BxQCI1kxYS0jDFmdNmT+bOdBgwwPitkvsTYiOUw4bEY3dW/MCxV5nH1YDKKgi505PGVYVwvWCO3WHnynUmQquNFhXYsBMONeukuz6PBcBt64RWoaSXGau17Bp1E1ZCTg2GfwYjnUUS0HqdnnmUUd9t9POXgeVSqH4lMSl1xeTpxZwzouyc53MgIKHBRrRhbSvUmrZGb0VfjFyadC3xkdZSP+NQK9YqZZUnnuJaWbrE+KIPr5gRXsVnbIPFx4TYvb2WzNoXLbhE+tR5JkFZ1EDDGnxJZUTrPuKALUS6x2RwAIdsdvGw8vLlkPqjt2fXjzeLY752WVbww8F2pZeTGnhCmDsev9mNNs7L68ejuAD15hjlv7rjX9v9paF+r3sw1FKA5PaNRQxuggZ1OKBhMa8cFZOjVUxGV+X/y1X4Bep/78hbQdy7t9bZV/SCyR5/Aj4Q70JoBgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=da17be4483222210d55659c6feaad340"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=da17be4483222210d55659c6feaad340^sys_idNOT IN45d7f2c483222210d55659c6feaad372"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c5d7f2c483222210d55659c6feaad371</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Playbook Tasks">da17be4483222210d55659c6feaad340</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned>task1,task2</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:50:06</sys_created_on>
+        <sys_id>45d7f2c483222210d55659c6feaad372</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:50</sys_updated_on>
+        <ui_id>e7ced94f-3e91-475f-b21e-73a4b7ca5520</ui_id>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4PPcWDLjmLnVqAoUGBbgS3rZRgMSqIaofJHbTltFuS/j4rd1G23odhhh2FHUvx475GE9kHdu6Z33bo+6zpzUwWrr/vAqGAVaBYDJqnMEsYZiyO1WPBFLrlGAJUsIZgFFZRIkQ6625jMLdje2/t9nEkukgxChpkIU7YUYZ7wLEyzROUckGuZzVuUdasOB8pUpmss7K7HAuSRG2NVix7Pt1nQQEutHLbBav/iye0aLCwItJT4CTXSi0Sq8FYSj7mPLF6Q8vXJbCeVCbVHEs8CfHBYKaROGmyHs6CESoGr293J0yKoq8o+OTamcgPHEh46852qJ2w2abAKHoqYR4zlaeFVEXURFQrLuvCYumASW4zCUc45BbxbjwFyUxuJV40zdTX0ciDsW0rL2vZl9XHQwE8GNfTWTSbTd9QWG8/bExlZ6c+b+v4k/4WpjhKNj7aWYE8WONca0Tvs/DR7s36t8OB8/5OposWS+hYlNI2pboqmrbfm2Iugl/MbS8Zc2/qeMPp9noP0IsxpKjC/IP/50X0NrfGKfKAylOw7fqnMXY+Xw9akkRRZGi7VUodpLFgodBaFUvFFlAhUtEbB4TiH4q731AapRlGKQXQK6GRrGndGELY48j/Mxvta8t+tZhY9X0X27L60VELlwEPBMx6mmgsCSEeGTIlUYAoYRX/lvt5AYnpf7DWpX98X+39f/+h9QbbMY6EhhAWTYQppHAoZ5/RbcNSxTGNQ+o/vi3bWVP5LG/Z3OyIZTYXSdAR47X2Xkzi1o8U0cuq6r9tbT/XJd/gBRzaJXzAHAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=da17be4483222210d55659c6feaad340"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=da17be4483222210d55659c6feaad340"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_da17be4483222210d55659c6feaad340^sys_idNOT IN74d7f2c483222210d55659c6feaad340"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request</element>
+        <help/>
+        <hint/>
+        <label>request</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_da17be4483222210d55659c6feaad340</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:50:06</sys_created_on>
+        <sys_id>74d7f2c483222210d55659c6feaad340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 16:50:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_da17be4483222210d55659c6feaad340"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_da17be4483222210d55659c6feaad340^sys_idNOT IN361ae34c83262210d55659c6feaad37f,fa1ae34c83262210d55659c6feaad383"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>task1</element>
+        <help/>
+        <hint/>
+        <label>task1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_da17be4483222210d55659c6feaad340</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:29:47</sys_created_on>
+        <sys_id>361ae34c83262210d55659c6feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>task2</element>
+        <help/>
+        <hint/>
+        <label>task2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_da17be4483222210d55659c6feaad340</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:29:47</sys_created_on>
+        <sys_id>fa1ae34c83262210d55659c6feaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_da17be4483222210d55659c6feaad340"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>playbook_tasks</internal_name>
+        <label_cache>[{"name":"subflow.request","label":"Input➛request","reference":"x_1602294_playbo_0_demo_tasks","reference_display":"Demo Tasks","type":"reference","base_type":"reference","column_name":"","usedInstances":{"18c6b38a-2e8b-427b-9368-483d96ae6fc8":["parent"],"fcdbd9a6-b686-4f6b-bf7b-e2db4be4ae00":["parent"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"dc928db0-05c7-452c-bfac-351ee10e0660","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"fcdbd9a6-b686-4f6b-bf7b-e2db4be4ae00.record","label":"2 - Create Record➛Demo Tasks Record","reference":"x_1602294_playbo_0_demo_tasks","reference_display":"Demo Tasks","type":"reference","base_type":"reference","usedInstances":{"e7ced94f-3e91-475f-b21e-73a4b7ca5520":["task2-1"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18c6b38a-2e8b-427b-9368-483d96ae6fc8.record","label":"1 - Create Record➛Demo Tasks Record","reference":"x_1602294_playbo_0_demo_tasks","reference_display":"Demo Tasks","type":"reference","base_type":"reference","usedInstances":{"e7ced94f-3e91-475f-b21e-73a4b7ca5520":["task1-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Playbook Tasks</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Playbook Tasks">da17be4483222210d55659c6feaad340</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:50:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82d736c483222210d55659c6feaad356</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:51</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=82d736c483222210d55659c6feaad356"/>
+    <sys_variable_value action="delete_multiple" query="document_key=82d736c483222210d55659c6feaad356"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_82d736c483222210d55659c6feaad356^id=82d736c483222210d55659c6feaad356"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=82d736c483222210d55659c6feaad356"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=82d736c483222210d55659c6feaad356^sys_idNOT IN46d736c483222210d55659c6feaad357"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>82d736c483222210d55659c6feaad356</id>
+        <name>Playbook Tasks</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:50:11</sys_created_on>
+        <sys_id>46d736c483222210d55659c6feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 16:50:11</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=46d736c483222210d55659c6feaad357"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=82d736c483222210d55659c6feaad356^sys_idNOT IN86d736c483222210d55659c6feaad358"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=dc928db0-05c7-452c-bfac-351ee10e0660</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1602294_playbo_0_demo_tasks</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>request</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Playbook Tasks">82d736c483222210d55659c6feaad356</model>
+        <model_id>82d736c483222210d55659c6feaad356</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_82d736c483222210d55659c6feaad356</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1602294_playbo_0_demo_tasks">x_1602294_playbo_0_demo_tasks</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:50:11</sys_created_on>
+        <sys_id>86d736c483222210d55659c6feaad358</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=86d736c483222210d55659c6feaad358"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=82d736c483222210d55659c6feaad356^sys_idNOT IN771a274c83262210d55659c6feaad347,7f1a274c83262210d55659c6feaad351"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=f240cb84-7d7f-41b2-bf80-cd6503bedd55</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1602294_playbo_0_demo_tasks</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>task1</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Playbook Tasks">82d736c483222210d55659c6feaad356</model>
+        <model_id>82d736c483222210d55659c6feaad356</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_82d736c483222210d55659c6feaad356</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1602294_playbo_0_demo_tasks">x_1602294_playbo_0_demo_tasks</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:29:51</sys_created_on>
+        <sys_id>771a274c83262210d55659c6feaad347</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=771a274c83262210d55659c6feaad347"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=a8791bfa-a52c-4a41-bc19-2e6ef1c41adf</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1602294_playbo_0_demo_tasks</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>task2</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Playbook Tasks">82d736c483222210d55659c6feaad356</model>
+        <model_id>82d736c483222210d55659c6feaad356</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_82d736c483222210d55659c6feaad356</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1602294_playbo_0_demo_tasks">x_1602294_playbo_0_demo_tasks</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:29:51</sys_created_on>
+        <sys_id>7f1a274c83262210d55659c6feaad351</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7f1a274c83262210d55659c6feaad351"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=82d736c483222210d55659c6feaad356"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=82d736c483222210d55659c6feaad356"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=82d736c483222210d55659c6feaad356^sys_idNOT IN52d736c483222210d55659c6feaad381,5ad736c483222210d55659c6feaad381"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Playbook Tasks">82d736c483222210d55659c6feaad356</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:50:11</sys_created_on>
+        <sys_id>52d736c483222210d55659c6feaad381</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:51</sys_updated_on>
+        <ui_id>18c6b38a-2e8b-427b-9368-483d96ae6fc8</ui_id>
+        <values>H4sIAAAAAAAA/9VUwW7bMAz9lUBnw7DjLGhyGxrktLXAWuTSdYJs0YkwWXIlOU0W5N9HWXIadA22Ybs0N5GP5HsMnx8ORHAyJ9Mcsg+zfFoVeVGMs2x8NcnLaVHmY14wgAlJiGININKxUgLtHwnZMtn54I7m02w8nk1oK9m+1DSjHBpNHbPfLeK4sD6xivAF5kb3MVdthOQGFJk/PCakZQZbOzBkfniV+lOikpUgEXrvmV4g7vbtm7FP57Wjm5DQhns+WUJg50BxQCI1kxYS0jDFmdNmT+bOdBgwwPitkvsTYiOUw4bEY3dW/MCxV5nH1YDKKgi505PGVYVwvWCO3WHnynUmQquNFhXYsBMONeukuz6PBcBt64RWoaSXGau17Bp1E1ZCTg2GfwYjnUUS0HqdnnmUUd9t9POXgeVSqH4lMSl1xeTpxZwzouyc53MgIKHBRrRhbSvUmrZGb0VfjFyadC3xkdZSP+NQK9YqZZUnnuJaWbrE+KIPr5gRXsVnbIPFx4TYvb2WzNoXLbhE+tR5JkFZ1EDDGnxJZUTrPuKALUS6x2RwAIdsdvGw8vLlkPqjt2fXjzeLY752WVbww8F2pZeTGnhCmDsev9mNNs7L68ejuAD15hjlv7rjX9v9paF+r3sw1FKA5PaNRQxuggZ1OKBhMa8cFZOjVUxGV+X/y1X4Bep/78hbQdy7t9bZV/SCyR5/Aj4Q70JoBgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Playbook Tasks">82d736c483222210d55659c6feaad356</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:50:11</sys_created_on>
+        <sys_id>5ad736c483222210d55659c6feaad381</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:51</sys_updated_on>
+        <ui_id>fcdbd9a6-b686-4f6b-bf7b-e2db4be4ae00</ui_id>
+        <values>H4sIAAAAAAAA/9VUTW8aMRD9K8jn1Wo/KArcqiBObSI1EZc0tbzrWbDqtTe2l0AR/73jtSEoDWqr9hJunnkz894wbx/2RHAyI5Mcsg/TfFKXeVkWWVZcjfNqUlZ5wUsGMCYJUawFRDpWSaDDIyEbJnsf3NJ8khXFdEw7yXaVphnl0GrqmP1uEceF9YllhM8xN7qPuXotJDegyOzhMSEdM9jagSGz/avUnxKVrAKJ0HvP9AJxt+vejH06rx3dhIQ23PPJEgJbB4oDEmmYtJCQlinOnDY7MnOmx4ABxm+V3J0Qa6EcNiQeu7XiB469yjyuAVRWQ8idnjSuKoSbOXPsDjvXrjcRWq+1qMGGnXBoWC/d9XksAG47J7QKJYPMWK1l36qbsBJyanD8ZzDSWyQBndfpmUcZzd1aP385slwINawkJqWumTy9mHNGVL3zfPYEJLTYiLas64Ra0c7ojRiKkUubriQ+0kbqZxxqxUqlrPbEU1wrSxcYnw/hJTPCq/iMbbD4kBC7s9eSWfuiBZdIn3rPJCiLGmhYgy+pjejcRxywgUj3kBwdwCGbXjysvHo5pOHo7dn1483imK99lpV8v7d95eWkBp4Q5g6Hb3atjfPyhvEoLkC9OYpfzfGP3f7STr9XfbTTQoDk9o01HL0ELcpwQMNaXvkpJkfLmIyeyv+Xp/D7M/zekbOCuHdvrLNv6AWLPf4EGfa8jGYGAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=82d736c483222210d55659c6feaad356"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=82d736c483222210d55659c6feaad356^sys_idNOT IN12d736c483222210d55659c6feaad380"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c5d7f2c483222210d55659c6feaad371</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Playbook Tasks">82d736c483222210d55659c6feaad356</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned>task1,task2</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:50:11</sys_created_on>
+        <sys_id>12d736c483222210d55659c6feaad380</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:51</sys_updated_on>
+        <ui_id>e7ced94f-3e91-475f-b21e-73a4b7ca5520</ui_id>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnydDLsuxbkCBAgLQBmrSXohCW5DImQj1CUU5cw//epSU4ShO0KdDechNHu+TMLAfcsaZ3be+6m+ak6/RtzVbfdkxLtmIqiQHTTBRpkidJHMn5PJ8vRa4QQKYLYAGroUKqdNDdxbTcgOn9ereLC5HztIAwwYKHWbLg4TLNizArUrnMAXMliplF0Vi531On1F1rYPt13IAQsdZGWvR8vgesBUtHObRsRexq+qjBXOr67rXit7I3wNFM6P+ixm1bv7SokLYWOEKXY9fnCU4yPLU4YPjosJZIDBSYDgNWQS3BNXZ7RCyCvKrNE7AmQYOOCh47/YNOTZNgcvCKPZZxHiXJMiu9Tbwpo1Ji1ZSea8cmteXoJPWcUcGHm7FAnYGDa2d74Xp7tLjRArvBNIkKeuNOp9hQcNU63dRDiwNu3sJHNKav6k+Doey4+2S+fUdcsfVmefWjFep63TwcnT3X9cHX8adpBJhJKYIV63ONxs+77itOtQED56zmvfMidqzXNy/HOICvDRINVsSnrKBtdX1btrbZ6AMHklTNbg0tZso0D8Tdp2UGwpszoxHD7JzwswP8Faz2Tn2kbQ6kev2l1vc9XgxXM4sEL7JwIRcqzGKehFwVUShkPo9SjpLuKtsHrNt2pwa67slGElHe996EwdTRvnIYj28RVrfuhEhtcHRqH4x5XuS/S0QRPU9A8izPSkgul5CHPC/yMFM5J8oUakwkzzhmgFH0f/P8BvbTPCcv1fx9npP3PL/n+c95hmKxjLmCEOaJCDPI4pCLeElvX44qFlkMUv3DPPtE1P7JHoa6Gbkd5y50RxJuPHYxqZNbyoMWU+ihsXde/BO2/wnYUgTlEAgAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=82d736c483222210d55659c6feaad356"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=82d736c483222210d55659c6feaad356"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_82d736c483222210d55659c6feaad356^sys_idNOT IN4ed736c483222210d55659c6feaad363"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request</element>
+        <help/>
+        <hint/>
+        <label>request</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_82d736c483222210d55659c6feaad356</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:50:11</sys_created_on>
+        <sys_id>4ed736c483222210d55659c6feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 16:50:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_82d736c483222210d55659c6feaad356"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_82d736c483222210d55659c6feaad356^sys_idNOT IN771a274c83262210d55659c6feaad359,f31a274c83262210d55659c6feaad34f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>task2</element>
+        <help/>
+        <hint/>
+        <label>task2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_82d736c483222210d55659c6feaad356</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:29:51</sys_created_on>
+        <sys_id>771a274c83262210d55659c6feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>task1</element>
+        <help/>
+        <hint/>
+        <label>task1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_82d736c483222210d55659c6feaad356</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:29:51</sys_created_on>
+        <sys_id>f31a274c83262210d55659c6feaad34f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_82d736c483222210d55659c6feaad356"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>da17be4483222210d55659c6feaad340</sys_id>
+        <latest_snapshot>82d736c483222210d55659c6feaad356</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch8-03-26-2025_04-03-2025_0833.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=da17be4483222210d55659c6feaad340"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=da17be4483222210d55659c6feaad340^sys_idNOT IN1ad736c483222210d55659c6feaad38a"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"1ad736c483222210d55659c6feaad38a","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Playbook Tasks">da17be4483222210d55659c6feaad340</plan_id>
+        <snapshot>e3eaaf8c83262210d55659c6feaad3ff</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 16:50:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ad736c483222210d55659c6feaad38a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:29:51</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

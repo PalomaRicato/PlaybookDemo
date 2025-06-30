@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 17:02:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e0babe887c222210c3e4bd9f30e348fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>m2m_app_config_theme_e0babe887c222210c3e4bd9f30e348fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 17:02:39</sys_updated_on>
+        <theme display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</theme>
+        <ux_app_configuration display_value="">a0babe88e4222210e5259160c31b02fc</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</application>
+        <file_path/>
+        <instance_id>55e07ce7ff811290c80bf8e4fc4fd963</instance_id>
+        <instance_name>dev289405</instance_name>
+        <name>m2m_app_config_theme_e0babe887c222210c3e4bd9f30e348fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-30 17:02:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e0babe887c222210c3e4bd9f30e348fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package><sys_policy/><sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope><sys_update_name>m2m_app_config_theme_e0babe887c222210c3e4bd9f30e348fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-30 17:02:39</sys_updated_on><theme display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</theme><ux_app_configuration display_value="">a0babe88e4222210e5259160c31b02fc</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>-1330778344</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:55:45</sys_created_on>
+        <sys_id>1b00770883662210d55659c6feaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197c29fdc0c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:55:45</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>d7007708506622103e99478090468d43</update_guid>
+        <update_guid_history>d7007708506622103e99478090468d43:-1330778344</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">df00770883662210d55659c6feaad343</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:55:45</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>5371218f06b3425aa13b46a7bc04c841</sys_id>
+        <sys_metadata>e0babe887c222210c3e4bd9f30e348fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_scope_delete display_value="">0da1a3141ba944f881da30530b4f0a90</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_e0babe887c222210c3e4bd9f30e348fb</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_e0babe887c222210c3e4bd9f30e348fb">1b00770883662210d55659c6feaad343</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:55:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

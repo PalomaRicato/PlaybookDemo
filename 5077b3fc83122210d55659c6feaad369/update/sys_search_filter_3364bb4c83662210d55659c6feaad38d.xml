@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Approval">b364bb4c83662210d55659c6feaad36c</ais_search_source>
+        <label>Approval</label>
+        <name>Approval</name>
+        <order>800</order>
+        <search_context_config display_value="Playbook Demo AI Search Configuration">1cbabe88ec222210d9faaa56398852f5</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 21:14:54</sys_created_on>
+        <sys_id>3364bb4c83662210d55659c6feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>sys_search_filter_3364bb4c83662210d55659c6feaad38d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 21:14:54</sys_updated_on>
+    </sys_search_filter>
+</record_update>

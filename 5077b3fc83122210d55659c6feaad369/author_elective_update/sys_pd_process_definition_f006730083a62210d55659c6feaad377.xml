@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>test</label>
+        <name>test_1</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 21:21:47</sys_created_on>
+        <sys_id>f006730083a62210d55659c6feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>sys_pd_process_definition_f006730083a62210d55659c6feaad377</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 21:24:52</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="DELETE" query="documentkey=f006730083a62210d55659c6feaad377"/>
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>test</label>
+        <name>test_1</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 21:21:47</sys_created_on>
+        <sys_id>f006730083a62210d55659c6feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>sys_pd_process_definition_f006730083a62210d55659c6feaad377</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 21:24:52</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="DELETE" query="documentkey=f006730083a62210d55659c6feaad377"/>
+    <sys_pd_lane action="DELETE" query="process_definition=f006730083a62210d55659c6feaad377^sys_idNOT IN3f64dd003f64f2603f6422e03f64c690"/>
+    <sys_pd_lane action="DELETE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>New Stage</label>
+        <lane_condition/>
+        <name>new_stage</name>
+        <order>1</order>
+        <process_definition display_value="test">f006730083a62210d55659c6feaad377</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 21:21:51</sys_created_on>
+        <sys_id>3f64dd003f64f2603f6422e03f64c690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 21:21:51</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="DELETE" query="documentkey=3f64dd003f64f2603f6422e03f64c690"/>
+    <sys_variable_value action="DELETE" query="document_key=3f64dd003f64f2603f6422e03f64c690"/>
+    <sys_pd_activity action="DELETE" query="process_definition=f006730083a62210d55659c6feaad377"/>
+    <sys_pd_process_variant action="DELETE" query="process_definition=f006730083a62210d55659c6feaad377"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</application>
+        <file_path/>
+        <instance_id>55e07ce7ff811290c80bf8e4fc4fd963</instance_id>
+        <instance_name>dev289405</instance_name>
+        <name>sys_pd_process_definition_f006730083a62210d55659c6feaad377</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition"><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description/><designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state><engine_major_version/><label>test</label><name>test_1</name><now_assist_prompt/><process_type/><restartable>RESTARTABLE_FALSE</restartable><run_on_pad_engine>false</run_on_pad_engine><schema_version>2</schema_version><snapshot/><start_non_blocking>true</start_non_blocking><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-30 21:21:47</sys_created_on><sys_id>f006730083a62210d55659c6feaad377</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test</sys_name><sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package><sys_policy/><sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope><sys_update_name>sys_pd_process_definition_f006730083a62210d55659c6feaad377</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-30 21:24:52</sys_updated_on><view_type>DIAGRAM</view_type></sys_pd_process_definition><sys_translated_text action="delete_multiple" query="documentkey=f006730083a62210d55659c6feaad377"/><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description/><designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state><engine_major_version/><label>test</label><name>test_1</name><now_assist_prompt/><process_type/><restartable>RESTARTABLE_FALSE</restartable><run_on_pad_engine>false</run_on_pad_engine><schema_version>2</schema_version><snapshot/><start_non_blocking>true</start_non_blocking><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-30 21:21:47</sys_created_on><sys_id>f006730083a62210d55659c6feaad377</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test</sys_name><sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package><sys_policy/><sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope><sys_update_name>sys_pd_process_definition_f006730083a62210d55659c6feaad377</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-30 21:24:52</sys_updated_on><view_type>DIAGRAM</view_type></sys_pd_process_definition><sys_translated_text action="delete_multiple" query="documentkey=f006730083a62210d55659c6feaad377"/><sys_pd_lane action="delete_multiple" query="process_definition=f006730083a62210d55659c6feaad377^sys_idNOT IN3f64dd003f64f2603f6422e03f64c690"/><sys_pd_lane action="INSERT_OR_UPDATE"><active>true</active><condition_to_run/><description/><label>New Stage</label><lane_condition/><name>new_stage</name><order>1</order><process_definition display_value="test">f006730083a62210d55659c6feaad377</process_definition><restart_rule>RUN_ONLY_ONCE</restart_rule><start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule><start_rule_vars/><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-30 21:21:51</sys_created_on><sys_id>3f64dd003f64f2603f6422e03f64c690</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-30 21:21:51</sys_updated_on><visible_rule/></sys_pd_lane><sys_translated_text action="delete_multiple" query="documentkey=3f64dd003f64f2603f6422e03f64c690"/><sys_variable_value action="delete_multiple" query="document_key=3f64dd003f64f2603f6422e03f64c690"/><sys_pd_activity action="delete_multiple" query="process_definition=f006730083a62210d55659c6feaad377"/><sys_pd_process_variant action="delete_multiple" query="process_definition=f006730083a62210d55659c6feaad377"/></record_update>]]></payload>
+        <payload_hash>-928500884</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>d4e3848d83522210d55659c6feaad33e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-06-30 21:24:52</sys_created_on>
+        <sys_id>31b6fb4083a62210d55659c6feaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197c2ba81400000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-06-30 21:24:52</sys_updated_on>
+        <type>Process Definition</type>
+        <update_guid>f5b6fb4014a62210f08e9cccfd94d71f</update_guid>
+        <update_guid_history>f5b6fb4014a62210f08e9cccfd94d71f:-928500884,d816bf0083a62210f40dcf342b46f9a4:-2018068041,bd067f000ca6221045476b1ada8cc2a7:-928500884,70067300a9a6221067144c4f0a41df7a:1023362991</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 21:32:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_process_definition">sys_pd_process_definition</sys_db_object>
+        <sys_id>4298fd99a06441f8a554b35dc65df9c1</sys_id>
+        <sys_metadata>f006730083a62210d55659c6feaad377</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_scope_delete display_value="">0da1a3141ba944f881da30530b4f0a90</sys_scope_delete>
+        <sys_update_name>sys_pd_process_definition_f006730083a62210d55659c6feaad377</sys_update_name>
+        <sys_update_version display_value="sys_pd_process_definition_f006730083a62210d55659c6feaad377">31b6fb4083a62210d55659c6feaad320</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 21:32:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

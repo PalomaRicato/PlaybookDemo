@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <enhanced_capacity>false</enhanced_capacity>
+        <flow/>
+        <name>test</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+    // Main API:
+    //    v_table.addRow({ ... }) - adds a row to the result set
+    
+    // There are also query helper methods
+    //    v_query.getEncodedQuery() - returns encoded querystring
+    //    v_query.getCondition(field) - returns encoded querystring for the given field (includes field name, operator, and value)
+    //    v_query.getParameter(field) - returns parameter for the given field (only includes value for equality conditions)
+    //    v_query.isGet() - returns whether the query is a single get by sys_id
+    //    v_query.getSysId() - returns parameter for sys_id field
+    //    v_query.isTextSearch() - returns whether the query contains a text query parameter
+    //    v_query.getTextSearch() - returns text search query parameter (internal field name 123TEXTQUERY321)
+    //    v_query.getFirstRowWanted() - returns the first row to include
+    //    v_query.getLastRowWanted() - returns the last row to include
+  
+    // Note: You must define sys_id for each row so that forms and lists for this table work properly
+     
+    // Your code goes here
+    // v_table.addRow({...})
+
+	var row = {};
+	row.name = 'teste';
+	row.sys_id = gs.generateGUID();
+
+	v_table.addRow(row);
+  })(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 18:52:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1160973183962210d55659c6feaad3f5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>sys_script_vtable_1160973183962210d55659c6feaad3f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 18:59:06</sys_updated_on>
+        <table>x_1602294_playbo_0_x_st_test</table>
+    </sys_script_vtable>
+    <sys_es_latest_script action="DELETE">
+        <id>1160973183962210d55659c6feaad3f5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 18:52:16</sys_created_on>
+        <sys_id>c6a09ffd83562210d55659c6feaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 18:52:16</sys_updated_on>
+        <table>sys_script_vtable</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</application>
+        <file_path/>
+        <instance_id>55e07ce7ff811290c80bf8e4fc4fd963</instance_id>
+        <instance_name>dev289405</instance_name>
+        <name>sys_script_vtable_1160973183962210d55659c6feaad3f5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_vtable"&gt;&lt;sys_script_vtable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;cache_isolation_level&gt;USER&lt;/cache_isolation_level&gt;&lt;cache_strategy&gt;CACHE_BY_QUERY&lt;/cache_strategy&gt;&lt;cache_ttl&gt;0&lt;/cache_ttl&gt;&lt;enhanced_capacity&gt;false&lt;/enhanced_capacity&gt;&lt;flow/&gt;&lt;name&gt;test&lt;/name&gt;&lt;script&gt;&lt;![CDATA[(function executeQuery(v_table, v_query) {
+    // Main API:
+    //    v_table.addRow({ ... }) - adds a row to the result set
+    
+    // There are also query helper methods
+    //    v_query.getEncodedQuery() - returns encoded querystring
+    //    v_query.getCondition(field) - returns encoded querystring for the given field (includes field name, operator, and value)
+    //    v_query.getParameter(field) - returns parameter for the given field (only includes value for equality conditions)
+    //    v_query.isGet() - returns whether the query is a single get by sys_id
+    //    v_query.getSysId() - returns parameter for sys_id field
+    //    v_query.isTextSearch() - returns whether the query contains a text query parameter
+    //    v_query.getTextSearch() - returns text search query parameter (internal field name 123TEXTQUERY321)
+    //    v_query.getFirstRowWanted() - returns the first row to include
+    //    v_query.getLastRowWanted() - returns the last row to include
+  
+    // Note: You must define sys_id for each row so that forms and lists for this table work properly
+     
+    // Your code goes here
+    // v_table.addRow({...})
+
+	var row = {};
+	row.name = 'teste';
+	row.sys_id = gs.generateGUID();
+
+	v_table.addRow(row);
+  })(v_table, v_query);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_vtable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-23 18:52:17&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1160973183962210d55659c6feaad3f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;test&lt;/sys_name&gt;&lt;sys_package display_value="Playbook Demo" source="x_1602294_playbo_0"&gt;5077b3fc83122210d55659c6feaad369&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Playbook Demo"&gt;5077b3fc83122210d55659c6feaad369&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_vtable_1160973183962210d55659c6feaad3f5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-23 18:59:06&lt;/sys_updated_on&gt;&lt;table&gt;x_1602294_playbo_0_x_st_test&lt;/table&gt;&lt;/sys_script_vtable&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;1160973183962210d55659c6feaad3f5&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-23 18:52:16&lt;/sys_created_on&gt;&lt;sys_id&gt;c6a09ffd83562210d55659c6feaad373&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-23 18:52:16&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_vtable&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1938945232</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>d4e3848d83522210d55659c6feaad33e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 18:59:06</sys_created_on>
+        <sys_id>ca3213f183962210d55659c6feaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1979e288a8b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 18:59:06</sys_updated_on>
+        <type>Remote Table</type>
+        <update_guid>423213f1c8962210ea3cd9d8bd5f010c</update_guid>
+        <update_guid_history>423213f1c8962210ea3cd9d8bd5f010c:-1938945232,f1d1d7b1ed962210c779c0603d42e325:-1179250644,e9a15f71a2962210be85e5a7de584391:-1938945232,73615f713a962210f1e3d8ba8c7e7c6d:-1179250644,5ba01f31599622102118e7a0e45f8921:-1938945232,5ea0db31729622103baf68a10b320cca:-2026338913</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 20:26:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_vtable">sys_script_vtable</sys_db_object>
+        <sys_id>5dc4dde7a397428cbbeb9b80ba827f24</sys_id>
+        <sys_metadata>1160973183962210d55659c6feaad3f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_scope_delete display_value="">0da1a3141ba944f881da30530b4f0a90</sys_scope_delete>
+        <sys_update_name>sys_script_vtable_1160973183962210d55659c6feaad3f5</sys_update_name>
+        <sys_update_version display_value="sys_script_vtable_1160973183962210d55659c6feaad3f5">ca3213f183962210d55659c6feaad30c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 20:26:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

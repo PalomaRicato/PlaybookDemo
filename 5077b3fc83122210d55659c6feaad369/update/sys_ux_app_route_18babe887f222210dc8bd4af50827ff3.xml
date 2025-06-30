@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config/>
+        <description/>
+        <extension_point/>
+        <fields>notificationTrayDisplayed,notificationQueue,notificationTrayIsLoading,notificationUIRoute,toastItem</fields>
+        <icon/>
+        <name>Notification tray</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id>wsSidepanel</parent_macroponent_composition_element_id>
+        <route_type>notificationtray</route_type>
+        <screen_type display_value="Notification tray">d4babe8802222210f842933677f3c2f4</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 17:02:38</sys_created_on>
+        <sys_id>18babe887f222210dc8bd4af50827ff3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notification tray</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>sys_ux_app_route_18babe887f222210dc8bd4af50827ff3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 17:02:38</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=18babe887f222210dc8bd4af50827ff3"/>
+</record_update>

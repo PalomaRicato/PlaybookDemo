@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type/>
+        <badge/>
+        <category/>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>In progress Tasks</label>
+        <name>in_progress_tasks</name>
+        <outputs/>
+        <required_roles/>
+        <source>da17be4483222210d55659c6feaad340</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 18:19:30</sys_created_on>
+        <sys_id>322c874083a22210d55659c6feaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>In progress Tasks</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_322c874083a22210d55659c6feaad38b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 18:19:30</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=322c874083a22210d55659c6feaad38b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=322c874083a22210d55659c6feaad38b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_da17be4483222210d55659c6feaad340^id=322c874083a22210d55659c6feaad38b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_da17be4483222210d55659c6feaad340^id=322c874083a22210d55659c6feaad38b"/>
+</record_update>

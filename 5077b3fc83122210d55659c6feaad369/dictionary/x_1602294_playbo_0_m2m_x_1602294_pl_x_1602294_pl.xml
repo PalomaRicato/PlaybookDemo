@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="b4bbbb3483522210d55659c6feaad3c1" label="x_1602294_playbo_0_m2m_Actions_Codes" max_length="40" name="x_1602294_playbo_0_m2m_x_1602294_pl_x_1602294_pl" type="collection">
+    <element db_object_id="b4bbbb3483522210d55659c6feaad3c1" label="x_1602294_playbo_0_m2m_Actions_Codes" max_length="40" name="x_1602294_playbo_0_m2m_x_1602294_pl_x_1602294_pl" text_index="true" type="collection">
         <element attributes="encode_utf8=false" label="Actions" max_length="32" name="x_1602294_playbo_0_action" reference="x_1602294_playbo_0_action" type="reference"/>
         <element attributes="encode_utf8=false" label="Codes" max_length="32" name="x_1602294_playbo_0_codes" reference="x_1602294_playbo_0_codes" type="reference"/>
         <element label="Resolution" max_length="32" name="resolution" reference="x_1602294_playbo_0_resolution" type="reference"/>

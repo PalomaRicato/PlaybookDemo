@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <enhanced_capacity>false</enhanced_capacity>
+        <flow display_value="Test">5a76fefd83d22210d55659c6feaad3bd</flow>
+        <name>playbook</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+    // Main API:
+    //    v_table.addRow({ ... }) - adds a row to the result set
+    
+    // There are also query helper methods
+    //    v_query.getEncodedQuery() - returns encoded querystring
+    //    v_query.getCondition(field) - returns encoded querystring for the given field (includes field name, operator, and value)
+    //    v_query.getParameter(field) - returns parameter for the given field (only includes value for equality conditions)
+    //    v_query.isGet() - returns whether the query is a single get by sys_id
+    //    v_query.getSysId() - returns parameter for sys_id field
+    //    v_query.isTextSearch() - returns whether the query contains a text query parameter
+    //    v_query.getTextSearch() - returns text search query parameter (internal field name 123TEXTQUERY321)
+    //    v_query.getFirstRowWanted() - returns the first row to include
+    //    v_query.getLastRowWanted() - returns the last row to include
+  
+    // Note: You must define sys_id for each row so that forms and lists for this table work properly
+     
+    // Your code goes here
+    // v_table.addRow({...})
+  })(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-21 01:38:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93c0914d83d62210d55659c6feaad37b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>playbook</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_update_name>sys_script_vtable_93c0914d83d62210d55659c6feaad37b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 16:59:08</sys_updated_on>
+        <table>x_1602294_playbo_0_st_st_playbook_demo</table>
+    </sys_script_vtable>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</application>
+        <file_path/>
+        <instance_id>55e07ce7ff811290c80bf8e4fc4fd963</instance_id>
+        <instance_name>dev289405</instance_name>
+        <name>sys_script_vtable_93c0914d83d62210d55659c6feaad37b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_vtable"&gt;&lt;sys_script_vtable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;cache_isolation_level&gt;USER&lt;/cache_isolation_level&gt;&lt;cache_strategy&gt;CACHE_BY_QUERY&lt;/cache_strategy&gt;&lt;cache_ttl&gt;0&lt;/cache_ttl&gt;&lt;enhanced_capacity&gt;false&lt;/enhanced_capacity&gt;&lt;flow display_value="Test"&gt;5a76fefd83d22210d55659c6feaad3bd&lt;/flow&gt;&lt;name&gt;playbook&lt;/name&gt;&lt;script&gt;&lt;![CDATA[(function executeQuery(v_table, v_query) {
+    // Main API:
+    //    v_table.addRow({ ... }) - adds a row to the result set
+    
+    // There are also query helper methods
+    //    v_query.getEncodedQuery() - returns encoded querystring
+    //    v_query.getCondition(field) - returns encoded querystring for the given field (includes field name, operator, and value)
+    //    v_query.getParameter(field) - returns parameter for the given field (only includes value for equality conditions)
+    //    v_query.isGet() - returns whether the query is a single get by sys_id
+    //    v_query.getSysId() - returns parameter for sys_id field
+    //    v_query.isTextSearch() - returns whether the query contains a text query parameter
+    //    v_query.getTextSearch() - returns text search query parameter (internal field name 123TEXTQUERY321)
+    //    v_query.getFirstRowWanted() - returns the first row to include
+    //    v_query.getLastRowWanted() - returns the last row to include
+  
+    // Note: You must define sys_id for each row so that forms and lists for this table work properly
+     
+    // Your code goes here
+    // v_table.addRow({...})
+  })(v_table, v_query);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_vtable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-21 01:38:39&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;93c0914d83d62210d55659c6feaad37b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;playbook&lt;/sys_name&gt;&lt;sys_package display_value="Playbook Demo" source="x_1602294_playbo_0"&gt;5077b3fc83122210d55659c6feaad369&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Playbook Demo"&gt;5077b3fc83122210d55659c6feaad369&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_vtable_93c0914d83d62210d55659c6feaad37b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-23 16:59:08&lt;/sys_updated_on&gt;&lt;table&gt;x_1602294_playbo_0_st_st_playbook_demo&lt;/table&gt;&lt;/sys_script_vtable&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-433837132</payload_hash>
+        <record_name>playbook</record_name>
+        <reverted_from/>
+        <source>d4e3848d83522210d55659c6feaad33e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 16:59:08</sys_created_on>
+        <sys_id>f8c63a7183162210d55659c6feaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1979dbab6c80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 16:59:08</sys_updated_on>
+        <type>Remote Table</type>
+        <update_guid>70c63a71dc1622101fdcc89d94531924</update_guid>
+        <update_guid_history>70c63a71dc1622101fdcc89d94531924:-433837132,21e0954dfbd622109f57d64ce94be47f:-1692217157</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 18:03:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_vtable">sys_script_vtable</sys_db_object>
+        <sys_id>0c3840168e434fa0822cf10924ce0024</sys_id>
+        <sys_metadata>93c0914d83d62210d55659c6feaad37b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>playbook</sys_name>
+        <sys_package display_value="Playbook Demo" source="x_1602294_playbo_0">5077b3fc83122210d55659c6feaad369</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Playbook Demo">5077b3fc83122210d55659c6feaad369</sys_scope>
+        <sys_scope_delete display_value="">0da1a3141ba944f881da30530b4f0a90</sys_scope_delete>
+        <sys_update_name>sys_script_vtable_93c0914d83d62210d55659c6feaad37b</sys_update_name>
+        <sys_update_version display_value="sys_script_vtable_93c0914d83d62210d55659c6feaad37b">f8c63a7183162210d55659c6feaad324</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 18:03:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
